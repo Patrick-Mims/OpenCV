@@ -10,7 +10,7 @@ using namespace std;
 
 int main(void)
 {
-    Mat image = imread("./redhead.jpeg");
+    Mat image = imread("./redhead.jpeg", IMREAD_REDUCED_GRAYSCALE_2);
 
     namedWindow("RH", WINDOW_AUTOSIZE);
 
